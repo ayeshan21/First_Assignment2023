@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+h1{
+    margin-bottom: 32px;
+}
+
+.btn-primary{
+  background-color: #E55473;
+  border-radius: 5px;
+  color: white;
+  border: 0px;
+  padding: 15px;
+}
+.common-p{
+    color: dimgrey;
+    margin-bottom: 32px;
+}
+.banner{
+  padding: 50px 150px 50px 50px;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer{
+    margin: 0px;
+}
+.foot-div1{
+    background-color: black;
+}
+.foot-div2{
+    color: white;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 32px;
+}
+#foot-span{
+    color: #E55473;
+}
