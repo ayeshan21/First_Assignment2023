@@ -1,41 +1,104 @@
 *{
     margin: 0;
+    margin-bottom: 32px;
 }
 h1{
-    margin-bottom: 32px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 32px;  
+}
+.lower-head{
+    font-size: 45px;
 }
 
 .btn-primary{
   background-color: #E55473;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   border: 0px;
-  padding: 15px;
+  padding: 20px;
+  font-size: medium;
 }
 .common-p{
     color: dimgrey;
+    margin-top: 32px;
     margin-bottom: 32px;
+    font-size: larger;
 }
-.banner{
-  padding: 50px 150px 50px 50px;
+.div-1{
+  padding: 100px;
+  
+}
+#first-img{
+    height: 600px;
+    width: 600px;
+    padding: 30px 200px 0px 400px;
+    background-color: aliceblue;
 }
 
 .header{
     display: flex;
-    margin-bottom: 30px;
-}
-.footer{
-    margin: 0px;
+    align-items: center; 
+    justify-content: space-between;
 }
 .foot-div1{
     background-color: black;
-}
-.foot-div2{
-    color: white;
-    text-align: center;
     padding: 70px;
-    margin-bottom: 32px;
+    text-align: center;
+    color: white;
+
 }
 #foot-span{
     color: #E55473;
+}
+#main-div1{
+   text-align: center;
+   margin-bottom: 24px;
+}
+.img-div{
+      
+    display: flex;
+    padding: 0px 250px 0px 250px;  
+    margin-bottom: 32px;
+
+}
+#second-img, #forth-img{
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 50px;
+    margin-right: 50px;
+}
+#third-img{
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 40px;
+    margin-right: 50px;
+}
+
+.div-2 > ul{
+    display: flex;
+    text-align: center;
+}
+section li{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-right: 450px;  
+    width: 600px;
+    text-align: center;
+    background-color: aqua;
+}
+#section-2{
+    display: flex;
+    /* height: 400px; */
+}
+#fifth-img{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+.div-3{
+    background-color: lightgrey;
+    padding: 120px;
+
 }
