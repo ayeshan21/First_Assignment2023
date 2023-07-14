@@ -3,7 +3,7 @@
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 h1 {
@@ -15,6 +15,10 @@ h1 {
 .h2-head {
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#h2-id {
+    margin-left: 250px;
 }
 
 .lower-head {
@@ -61,7 +65,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: antiquewhite;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .div-2 {
@@ -86,35 +90,24 @@ h1 {
     margin-bottom: 32px;
 
 }
-#second-img, #forth-img {
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    border-bottom: 50px;
-    padding: 50px;
-    padding-bottom: 10px;
-    margin-right: 30px;
-}
 
+#second-img,
+#forth-img,
 #third-img {
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
-    padding: 30px;
-    padding-bottom: 10px;
+    height: 500px;
+    width: 350px;
+    padding: 50px;
+    padding-bottom: 0px;
     margin-right: 30px;
 }
 
-.div-2>ul {
-    display: flex;
-    text-align: center;
-}
-
-.div-2 li {
-    margin-top: 0;
-    list-style: none;
+#figcaption {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
     text-decoration: underline;
-    margin-right: 500px;
 }
 
 #section-2 {
@@ -135,11 +128,6 @@ h1 {
 
 }
 
-.div-4, .div-6{
-    width: auto;
-    text-align: center;
-}
-
 #section-3>.div-5 {
     display: flex;
     margin-right: 60px;
@@ -148,10 +136,6 @@ h1 {
 .gap {
     margin-right: 10px;
 
-}
-
-.img-div-2 {
-    margin: auto;
 }
 
 #h3 {
@@ -181,10 +165,48 @@ h1 {
     background-size: cover;
     height: 100%;
 }
-#images{
-    height: 700px;
-    width: 900px;
-    padding: 10px 50px;
+
+#group-div {
+    background-color: rgb(209, 199, 199);
+    display: flex;
+    justify-content: space-between;
     margin: auto;
+    height: 120px;
+    width: 1000px;
+    padding: 100px 200px;
+}
+
+#group-img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#group-figcaption {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.extra-div{
+    display: flex;
+    justify-content: space-between;
 
 }
+
+#extra-img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+#anchor{
+    margin-left: 900px;
+    text-decoration:  2px underline;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
